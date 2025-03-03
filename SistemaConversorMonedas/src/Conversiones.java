@@ -34,7 +34,7 @@ public class Conversiones extends javax.swing.JFrame {
         txtDolar = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
         txtEuro = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        btnConvertir = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         txtLibraEster = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
@@ -69,10 +69,10 @@ public class Conversiones extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Euros");
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 204));
-        jButton1.setFont(new java.awt.Font("Yu Gothic UI", 2, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Convertir");
+        btnConvertir.setBackground(new java.awt.Color(0, 102, 204));
+        btnConvertir.setFont(new java.awt.Font("Yu Gothic UI", 2, 14)); // NOI18N
+        btnConvertir.setForeground(new java.awt.Color(255, 255, 255));
+        btnConvertir.setText("Convertir");
 
         jLabel5.setFont(new java.awt.Font("Yu Gothic UI", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
@@ -144,7 +144,7 @@ public class Conversiones extends javax.swing.JFrame {
                                 .addGap(84, 84, 84)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jButton1))
+                                    .addComponent(btnConvertir))
                                 .addGap(0, 0, Short.MAX_VALUE)))))
                 .addGap(33, 33, 33))
         );
@@ -157,7 +157,7 @@ public class Conversiones extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(txtMonto, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
+                    .addComponent(btnConvertir))
                 .addGap(35, 35, 35)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -240,7 +240,7 @@ public class Conversiones extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnConvertir;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
